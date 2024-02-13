@@ -3,6 +3,11 @@ function encontrarPrimerMultiploDeN(n, secuencia) {
   // Devuelve el primer múltiplo de n que encuentres en la secuencia de números.
   // Usa un break para detener el bucle una vez halles el múltiplo.
   // Tu código:
+  if(2*secuencia.indexOf(n)<=secuencia.length){
+    return n;
+  };
+
+  return (undefined);
 }
 
 module.exports = encontrarPrimerMultiploDeN;
